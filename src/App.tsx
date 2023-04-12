@@ -1,17 +1,9 @@
-import { useState } from "react"
-
+import { Home } from "./Pages/Cart";
 
 export function App() {
-
-  const [contador, setContador] = useState(0)
-   
-
   return (
-    <> 
-    <button onClick={() => setContador(contador + 1)}>Contar +1</button>
-    <h1>{contador}</h1>
-    </>
-    )
+    <Home />
+     )
 }
 
 
