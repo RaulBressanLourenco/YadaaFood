@@ -1,3 +1,3 @@
-export function Home() {
-    return <h1>Home</h1>
-} 
+export function Cart() {
+  return <h1>Cart</h1>
+}
